@@ -39,6 +39,7 @@ endforeach(SRC)
 include_directories(
   ${CMAKE_CURRENT_SOURCE_DIR}/base
   ${CMAKE_CURRENT_SOURCE_DIR}/include
+  ${CMAKE_SOURCE_DIR}/dep/include/g3dlite
   ${CMAKE_SOURCE_DIR}/src/shared
   ${CMAKE_SOURCE_DIR}/src/framework
   ${CMAKE_SOURCE_DIR}/src/game
